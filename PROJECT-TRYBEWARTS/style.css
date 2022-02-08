@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+}
+
+#trybewarts-header-title {
+  justify-content: center;
+  align-self: center;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  margin: 100px 200px;
+  flex-wrap: wrap;
+}
+
+main #evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#fullname , #email-house {
+  display: flex;
+  width: 675px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#input-name , #input-lastname , #input-email , #house {
+  width: 50%;
+}
+
+#label-family {
+  display: flex;
+  flex-direction: column;
+}
+
+#radio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+}
+
+#frontEnd {
+  display: flex;
+  flex: row;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  width: 40%;
+}
+
+#evaluation-form #new-form {
+  width: 40%;
+  margin-top: 75px;
+}
+
+#label-container {
+  margin-top: 75px;
+  text-align: center;
+}
+
+#rate-container {
+  display: flex;
+  margin-top: 75px;
+  justify-content: center;
+}
+
+#textarea-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+#agreement-container {
+  display: flex;
+  margin-top: 75px;
+  justify-content: center;
+}
+
+#agreement {
+  align-self: center;
+}
+
+#print-form {
+  display: none;
+  flex-direction: column;
+  margin-top: 75px;
+}
